@@ -77,5 +77,6 @@ dependencies {
 
 	testImplementation(projects.testing.tooling)
 
-	runtimeOnly(libs.tooling.slf4j)
+	//runtimeOnly(libs.tooling.slf4j)
+  implementation(libs.tooling.slf4j)
 }
